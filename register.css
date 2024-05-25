@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin: 5%;
+    display: flex;
+    width: 90%;
+    height: 44px;
+    justify-content: space-between;
+}
+.secone{
+    width: 100%;
+    img{
+        width: 20px;
+        margin-left: 32px;
+    }
+}
+.secone h1{
+    margin-left: 32px;
+    margin-top: 32px;
+    width: 148px;
+    height: 40px;
+    font-size: 36px;
+}
+.inputdiv{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 32px;
+    gap: 8px;
+}
+.inputdiv input{
+    
+    border: solid black;
+    width: 343px;
+    height: 55px;
+}
+.inputdiv a input{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
